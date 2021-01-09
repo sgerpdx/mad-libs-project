@@ -78,10 +78,13 @@ header img {
     height: var(--header-height);
 }
 
-.zoo {
+#zoo {
     display: none;
 }
 
+#inputs{
+    
+}
 
 content {
     width: 80%;
