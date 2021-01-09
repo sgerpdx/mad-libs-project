@@ -14,7 +14,7 @@ Necessary Components:
 
 - span tags will be used
 
-
+- CSS for 'zoo' needs to change on click, input words need to be injected on click
 
 >>>>>>>>>
 
