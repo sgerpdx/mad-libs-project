@@ -1,5 +1,5 @@
 const zooParagraph = document.getElementById('zoo');
-const inputDisplay = document.getElementById('inputs')
+const inputDisplay = document.getElementById('inputs');
 
 
 const aOrAn = document.getElementById('a-or-an');
