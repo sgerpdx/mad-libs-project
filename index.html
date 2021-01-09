@@ -11,17 +11,18 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/home.css" />
-    <title>Document</title>
+    <title>Mad-Libs</title>
   </head>
 
   <body>
     <header>
       <section class="title">Mad-Libs</section>
-      <section class="instructions">Instructions go here.</section>
+      <section class="instructions">Fill in the blanks!</section>
     </header>
     <main>
+
       <div class="zoo">
-        Today I went to the zoo. I saw a(n)
+        Today I went to the zoo. I saw <span id="a-or-an">a(n)</span>
         <span id="adj-1">(adjective)</span>
         <span id="noun-1">(Noun)</span> jumping up and down in its tree. He
         <span id="verb-pt-1">(verb, past tense)</span>
@@ -36,18 +37,24 @@
         <span id="verb-pt-2">(verb, past tense)</span> my mom for a
         <span id="adj4">(adjective)</span> day at the zoo.
       </div>
+
+      <div class="inputs">
+        <input id="adj-1-input" placeholder="adjective">
+	      <input id="noun-1-input" placeholder="noun">
+        <input id="verb-pt-1-input" placeholder="verb: past tense">
+        <input id="adverb-1-input" placeholder="adverb">
+        <input id="adj-2-input" placeholder="adjective">
+        <input id="noun-2-input" placeholder="noun">
+        <input id="noun-3-input" placeholder="noun">
+        <input id="adj-3-input" placeholder="adjective">
+        <input id="verb-1-input" placeholder="verb: present-tense">
+        <input id="adverb-2-input" placeholder="adverb">
+        <input id="verb-pt-2-input" placeholder="verb: past tense">
+        <input id="adj-4-input" placeholder="adjective">
+      </div>
+      
       <button id="submitBtn">Click!</button>
-      <!-- <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section> -->
+    
     </main>
     <footer></footer>
 
