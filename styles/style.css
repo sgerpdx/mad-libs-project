@@ -169,10 +169,21 @@ header img {
   height: var(--header-height);
 }
 
+<<<<<<< HEAD
 .zoo {
   display: none;
 }
 
+=======
+#zoo {
+    display: none;
+}
+
+#inputs{
+    
+}
+
+>>>>>>> f4a133e526a33cdb195bc25c23e706da606e6ab7
 content {
   width: 80%;
 }
