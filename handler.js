@@ -65,6 +65,8 @@ const inputs = [
 
 // things that should happen on click
 export function clickHandler() {
+    console.log('Someone clicked');
+    console.log(blanks, inputs);
     replaceText(blanks, inputs);
     zooParagraph.style.display = 'block';
     inputDisplay.style.display = 'none';
