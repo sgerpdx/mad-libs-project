@@ -1,5 +1,5 @@
-
-export function words(blank, input) {
-    blank = input;
-    return blank;
+export function replaceArray(array1, array2) {
+    for (let i = 0; i < array1.length; i++) {
+        array1[i].textContent = array2[i].value;
+    }
 }
