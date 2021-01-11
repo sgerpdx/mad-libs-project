@@ -1,4 +1,4 @@
-import { replaceArray } from './utils.js';
+import { replaceText } from './utils.js';
 
 // sections to be manipulated with style.display
 const zooParagraph = document.getElementById('zoo');
@@ -65,7 +65,7 @@ const inputs = [
 
 // things that should happen on click
 export function clickHandler() {
-    replaceArray(blanks, inputs);
+    replaceText(blanks, inputs);
     zooParagraph.style.display = 'block';
     inputDisplay.style.display = 'none';
 }
